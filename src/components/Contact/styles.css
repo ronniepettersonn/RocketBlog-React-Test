@@ -1,0 +1,42 @@
+.containerForm {
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 700px;
+    padding: 0 2rem;
+    margin-top: 4rem;
+}
+
+.form .contact {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form .contact input {
+    font-size: 14px;
+    color: var(--dark-bg);
+    padding: 14px 25.65px;
+    border-radius: 4px;
+}
+
+.form .contact input:focus {
+    border: 1px solid var(--dark-bg);
+}
+
+.form .contact button {
+    background-color: var(--dark-bg);
+    color: var(--light-purple);
+    height: 45px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form .contact button:hover {
+    filter: brightness(1.5);
+}

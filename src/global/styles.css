@@ -1,0 +1,39 @@
+:root {
+    --purple-bg: #290742;
+    --dark-bg: #170027;
+    --button-bg: #9e6dc2;
+    --white: #fff;
+    --light-purple: #fbf6ff;
+    --green: #4fff4b;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+}
+
+body {
+    background-color: var(--light-purple);
+    font-family: Poppins;
+}
+
+h1, h2 {
+    font-family: Poppins;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--button-bg);
+    line-height: 54px;
+}
+
+h2 {
+    line-height: 36px;
+    margin-bottom: .5rem;
+}

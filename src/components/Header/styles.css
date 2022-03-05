@@ -1,0 +1,106 @@
+header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: var(--purple-bg);
+    padding-bottom: 4rem;
+    border-bottom: 6px solid var(--green);
+}
+
+header .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+header .header .top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1190px;
+    padding: 0 2rem;
+    margin-top: 64px;
+}
+
+header .header .top-header ul {
+    display: flex;
+    gap: 2rem;
+}
+
+header .header .top-header ul li {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 0 3px ;
+}
+
+header .header .top-header ul li a {
+    color: var(--white);
+}
+
+header .header .top-header ul li:hover {
+    border-left: 2px solid var(--green);
+}
+
+header .header .top-header form {
+    display: flex;
+}
+
+header .header .top-header form input {
+    background-color: var(--dark-bg);
+    font-size: 14px;
+    color: var(--light-purple);
+    padding: 14px 25.65px;
+    border-radius: 4px 0 0 4px;
+}
+
+header .header .top-header form input::placeholder {
+    color: var(--light-purple);
+}
+
+header .header .top-header form button {
+    background-color: var(--button-bg);
+    width: 70px;
+    height: 45px;
+    border-radius: 0 4px 4px 0;
+}
+
+header .header .top-header form button:hover {
+    filter: brightness(1.2);
+    cursor: pointer;
+}
+
+header .header .banner-header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1190px;
+    padding: 0 2rem;
+    margin-top: 4rem;
+}
+
+header .header .banner-header article p {
+    font-size: 16px;
+    line-height: 27px;
+    font-weight: 400;
+    color: var(--light-purple);
+    margin-top: 1rem;
+}
+
+header .header .banner-header article a {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    line-height: 27px;
+    gap: .5rem;
+    font-family: Roboto;
+    font-weight: 700;
+    color: var(--button-bg);
+    margin-top: 24px;
+}
+
+header .header .banner-header article a:hover {
+    filter: brightness(1.2);
+}

@@ -1,0 +1,89 @@
+main .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main .content h2 {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--purple-bg);
+}
+
+main .content p {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #000;
+}
+
+main .content section {
+    display: flex;
+    justify-content: space-between;
+    gap: 130px;
+    max-width: 1190px;
+    width: 100%;
+    padding: 0 2rem;
+    margin-top: 4rem;
+}
+
+main .content:last-child {
+    overflow: hidden;
+}
+
+main .content section .post-highlight img {
+    width: 569px;
+}
+
+main .content section .post-highlight h2 {
+    margin: 1rem 0;
+}
+
+main .content section .post-highlight p {
+    max-width: 569px;
+}
+
+main .content section .posts-recents span {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 18.75px;
+    color: black;
+    margin-bottom: .5rem;
+}
+
+main .content section .posts-recents h2 {
+    margin-bottom: .5rem;
+    line-height: 36px;
+}
+
+main .content section .posts-recents .divider {
+    margin: 24px 0;
+    line-height: 0;
+    border-bottom: 1px solid #F2E7FA;
+}
+
+main .content section .posts-galery {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    width: 100%;
+    margin-bottom: 68px;
+    overflow-y: scroll;
+}
+
+main .content section .posts-galery .post-item-galery {
+    width: 100%;
+    max-width: 350px;
+}
+
+main .content section .posts-galery .post-item-galery figure img {
+    width: 350px;
+}
+
+main .content section .posts-galery .post-item-galery figure figcaption {
+    margin-bottom: 1rem;
+}
